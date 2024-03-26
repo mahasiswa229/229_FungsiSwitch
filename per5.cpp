@@ -52,19 +52,19 @@ int main()
         {
             case 1 :
               inputData();
-              cout << "Hasil  penjumlahan = "<< penjumlahan(bilangan1,bilangan2) << endl;
+              cout << "Hasil  Penjumlahan = "<< penjumlahan(bilangan1,bilangan2) << endl;
               break;
             case 2 :
               inputData();
-              cout << "Hasil  pengurangan = "<< pengurangan(bilangan1,bilangan2) << endl;
+              cout << "Hasil  Pengurangan = "<< pengurangan(bilangan1,bilangan2) << endl;
               break;
             case 3 :
               inputData();
-              cout << "Hasil  perkalian = "<< perkalian(bilangan1,bilangan2) << endl;
+              cout << "Hasil  Perkalian = "<< perkalian(bilangan1,bilangan2) << endl;
               break;
             case 4 :
               inputData();
-              cout << "Hasil  pembagian = "<< pembagian(bilangan1,bilangan2) << endl;
+              cout << "Hasil  Pembagian = "<< pembagian(bilangan1,bilangan2) << endl;
               break;
             case 5 :
               break;
@@ -72,8 +72,11 @@ int main()
             default :
              cout << "Pilihan Tidak Ada" << endl;
              break;
-              
-        }
-    }
 
-}
+             
+        }
+        
+        system ("pause")
+        system ("CLS")
+    }while (pilihan != 5);
+}   
