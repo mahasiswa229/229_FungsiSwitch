@@ -45,7 +45,7 @@ int main()
         cout <<"4. Pembagian" << endl;
         cout <<"5. Keluar" << endl;
         cout << "====================" << endl;
-        cout << "Masukan menu pilihan =" << endl;
+        cout << "Masukan menu pilihan =" ;
         cin >> pilihan;
 
         switch (pilihan)
@@ -75,8 +75,8 @@ int main()
 
              
         }
-        
-        system ("pause")
-        system ("CLS")
+
+        system ("pause");
+        system ("CLS");
     }while (pilihan != 5);
 }   
